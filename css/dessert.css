@@ -1,0 +1,121 @@
+body{
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header{
+    height: 30 px;
+}
+footer {
+    margin-top: auto;
+  }
+
+.footer_text{
+    text-align: center;
+}
+
+/*Initial Welcoming*/
+.website_header{
+    text-align: center;
+    font-size: 90px;
+    color: #F27059;
+}
+
+u{
+    color: #F27059; 
+}
+
+.banner{
+    width:1260px;
+    height:90px;
+}
+
+/*For the Navigation Bar */
+.nav_bar{
+    border-radius: 25px;
+}
+.food_buttons{
+    border-radius: 25px;
+    top:300px;
+    left:60px;
+    height:400px;
+    width:300px;
+    display: inline;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+ul{
+    list-style-type: none;
+    position: sticky;
+}
+li{
+    font-size:25px;
+    float:left;
+    padding: 14px 16px;
+    margin-left:95px;
+    margin-bottom:20px;
+    display: block;
+}
+.a1:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+    
+.a1:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.a1:hover {
+    color: #F27059;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+
+.appetizer_descript{
+    position: absolute;
+    top:130px;
+    bottom: 130px;
+}
+.button8{
+    font-size:25px;
+    float:left;
+    padding: 14px 16px;
+    margin-left:290px;
+    margin-bottom:20px;
+    display: block;
+    border-radius:20px;
+    border-width: 5px;
+    font-weight: bold;
+    background-color: #EDF1D6;
+}
+
+.button8:hover{
+    color: black;
+    background-color: #F7B267;
+    text-decoration: none;
+}
+.button9{
+    font-size:25px;
+    float:left;
+    padding: 14px 16px;
+    margin-left:400px;
+    margin-bottom:20px;
+    display: block;
+    border-radius:20px;
+    border-width: 5px;
+    font-weight: bold;
+    background-color: #EDF1D6;
+}
+
+.button9:hover{
+    color: black;
+    background-color: #F7B267;
+    text-decoration: none;
+}
+
+
